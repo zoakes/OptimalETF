@@ -6,11 +6,14 @@ Created on Fri Sep 11 07:23:56 2020
 @author: zoakes
 """
 
+
 from Segments import Segments
 from ModelPFS import ModelPFS
 
 
 '''
+*** WAS INITIAL BUILD I -- REPLACED W TRUE DEFAULTS + RENAMED OptPFS ***
+
 was named ModelPFS in Jupyter -- 
 put ModelPFs into class and renamed this Real
 '''
