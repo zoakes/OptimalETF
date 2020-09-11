@@ -28,7 +28,7 @@ class ModelPFS:
         PF1 =  {
             'USEq':.4,
             'IntEq':.25,
-            'EMEq':.25,
+            'EM':.25,
             'EMFi':.03,
             'USFi':.07
             }
@@ -39,7 +39,7 @@ class ModelPFS:
         PF2 = {
             'USEq':.3,
             'IntEq':.2,
-            'EMEq':.2,
+            'EM':.2,
             'EMFi':.07,
             'USFi':.23
             }
@@ -50,7 +50,7 @@ class ModelPFS:
         PF20 = {
             'USEq':.15,
             'IntEq':.05,
-            'EMEq':.05,
+            'EM':.05,
             'EMFi':.03,
             'MFi':.25,
             'TIPS':.06,
