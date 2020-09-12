@@ -85,7 +85,7 @@ class Segments:
             'EMFi':self.EMFi,
             'USCFi':self.USCFi,
             'EQ':self.Eq,
-            'IntEq':self.IntEq, #To mock... would need ENTIRE row... W         #BREAKS CREATE_EXP_RATIO
+            'IntEq':self.IntEq,                                                 
             'USEq':self.USEq,
             'LC':self.LC,
             'SC':self.SC,
@@ -135,7 +135,7 @@ class Segments:
         return OPT_PF
     
     
-    #Is Broken by a change in SD ? 
+    
     def create_exp_ratio_dct(self):
         opt_etfs = self.create_optimal_dct(top = 1)
         #exp_ratios = {ticker:exp for ticker, exp in list(opt_etfs.values())}
@@ -227,7 +227,8 @@ class Segments:
         TIPS = self.USFi.loc[self.USFi.focus == 'Municipal']                      #NOT sure this is PRESENT?
         if TIPS.shape[0] == 0:
             #logic to simply use TIPS default?
-            print('No TIPS found -- using Default.')
+            #print('No TIPS found -- using Default.')
+            pass
         return TIPS
     
     @property
