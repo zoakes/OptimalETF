@@ -53,7 +53,7 @@ class ModelPFS:
             'EM':.05,
             'EMFi':.03,
             'MFi':.25,
-            'TIPS':.06,
+            'TIPS':.07,
             'STUST':.15,
             'USFi':.25
             
